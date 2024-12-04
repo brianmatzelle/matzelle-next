@@ -14,8 +14,9 @@ export default function Home() {
             title="Spacebots.io"
             href="https://spacebots.io"
           >
-            <p>A platform for botting Twitch.tv chats with AI, never released for ethical reasons. Use code <Code>mywebsite</Code> to enter.</p>
+            <p>A platform for botting Twitch.tv chats with AI, never released for ethical reasons. Use code <Code>portfolio</Code> to enter, I limited the number of bots available so it can't be abused.</p>
           </Project>
+
           <Project 
             title="Battlezone Shapes" 
             href="https://www.npmjs.com/package/battlezone-shapes" 
@@ -31,6 +32,7 @@ export default function Home() {
               theme.
             </p>
           </Project>
+
         </div>
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
