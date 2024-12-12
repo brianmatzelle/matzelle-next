@@ -23,7 +23,7 @@ export default function Home() {
             href="https://huggingface.co/datasets/brianmatzelle/2024-election-subreddit-threads-173k"
             src="https://github.com/brianmatzelle/election-crawler"
           >
-            <p>Scraped 173k Reddit threads from 23 political subreddits for months leading up to the 2024 US Presidential Election, then finetuned Llama3.1 with the data to &quot;archive&quot; public opinion and allow you to chat with &quot;people&quot; of the time. To demo a model, run <Code>ollama run brianmatzelle/llama3.1-8b-instruct-hasanpiker</Code> <A variant="lowkey" href="https://ollama.com/brianmatzelle/llama3.1-8b-instruct-hasanpiker-abliterated hover:no-underline">or, check out the uncensored version.</A></p>
+            <p>Scraped 173k Reddit threads from 23 political subreddits for months leading up to the 2024 US Presidential Election, then finetuned Llama3.1 with the data to &quot;archive&quot; public opinion and allow you to chat with &quot;people&quot; of the time. To demo a model, run <Code>ollama run brianmatzelle/llama3.1-8b-instruct-hasanpiker</Code> <A variant="lowkey" href="https://ollama.com/brianmatzelle/llama3.1-8b-instruct-hasanpiker-abliterated">or, check out the uncensored version.</A></p>
           </Project>
 
           <Project
