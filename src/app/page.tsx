@@ -49,7 +49,7 @@ export default function Home() {
             href="https://documenter.vercel.app/"
             src="https://github.com/brianmatzelle/documenter"
           >
-            <p>A tool for generating documentation for your GitLab merge requests, intended for local use (so the backend isn't hosted atm). See the <A variant="source" href="https://github.com/brianmatzelle/documenter/blob/main/README.md">README</A> for more information on how to set it up. Built in a day.</p>
+            <p>A tool for generating documentation for your GitLab merge requests, intended for local use (so the backend isn&apos;t hosted atm). See the <A variant="source" href="https://github.com/brianmatzelle/documenter/blob/main/README.md">README</A> for more information on how to set it up. Built in a day.</p>
           </Project>
 
           <Project 
