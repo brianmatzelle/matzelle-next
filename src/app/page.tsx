@@ -1,14 +1,13 @@
 import Project from "@/components/project";
-import Image from "next/image";
 import { A } from "@/components/ui/a";
 import Name from "@/components/name";
 import Code from "@/components/ui/code";
-import { Bold } from "@/components/ui/bold";
+import { SocialLinks } from "@/components/social-links";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-start justify-center px-4 pb-4 gap-16 font-[family-name:var(--font-geist-sans)] max-w-[1000px] max-w-screen mx-auto">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
+    <div className="grid grid-rows-[20px_1fr_20px] items-start justify-center px-4 pb-8 gap-16 font-[family-name:var(--font-geist-sans)] max-w-[1000px] max-w-screen mx-auto">
+      <main className="flex flex-col gap-6 row-start-2 items-center sm:items-start">
         <Name />
         <div className="flex flex-col gap-4">
 
@@ -24,7 +23,7 @@ export default function Home() {
             href="https://huggingface.co/datasets/brianmatzelle/2024-election-subreddit-threads-173k"
             src="https://github.com/brianmatzelle/election-crawler"
           >
-            <p>Scraped 173k Reddit threads from 23 political subreddits for months leading up to the 2024 US Presidential Election, then finetuned Llama3.1 with the data to &quot;archive&quot; public opinion and allow you to chat with &quot;people&quot; of the time. To demo a model, run <Code>ollama run brianmatzelle/llama3.1-8b-instruct-hasanpiker</Code> <A variant="secondary" href="https://ollama.com/brianmatzelle/llama3.1-8b-instruct-hasanpiker-abliterated" className=" text-xs text-rose-400/80">or the uncensored version</A>.</p>
+            <p>Scraped 173k Reddit threads from 23 political subreddits for months leading up to the 2024 US Presidential Election, then finetuned Llama3.1 with the data to &quot;archive&quot; public opinion and allow you to chat with &quot;people&quot; of the time. To demo a model, run <Code>ollama run brianmatzelle/llama3.1-8b-instruct-hasanpiker</Code> <A variant="lowkey" href="https://ollama.com/brianmatzelle/llama3.1-8b-instruct-hasanpiker-abliterated hover:no-underline">or, check out the uncensored version.</A></p>
           </Project>
 
           <Project
@@ -95,53 +94,9 @@ export default function Home() {
 
         </div>
       </main>
-      {/* <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://github.com/brianmatzelle"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/github-mark-white.svg"
-            alt="github icon"
-            width={16}
-            height={16}
-          />
-          Github
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://huggingface.co/brianmatzelle"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/hf-logo-pirate.svg"
-            alt="huggingface icon"
-            width={16}
-            height={16}
-          />
-          Hugging Face
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://www.linkedin.com/in/brianmatzelle/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/linkedin-white.svg"
-            alt="linkedin icon"
-            width={16}
-            height={16}
-          />
-          LinkedIn
-        </a>
-      </footer> */}
+      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
+        <SocialLinks />
+      </footer>
     </div>
   );
 }
