@@ -64,7 +64,7 @@ export default function Home() {
               >
                 Battlezone (1980)
               </A>{" "}
-              theme. It&apos;s the theme of this website!
+              theme. Over 500 downloads so far, and it&apos;s the theme of this website!
             </p>
           </Project>
 
