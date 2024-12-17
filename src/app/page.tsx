@@ -23,13 +23,13 @@ export default function Home() {
             href="https://huggingface.co/datasets/brianmatzelle/2024-election-subreddit-threads-173k"
             src="https://github.com/brianmatzelle/election-crawler"
           >
-            <p>Scraped 173k Reddit threads from 23 political subreddits for months leading up to the 2024 US Presidential Election, then finetuned Llama3.1 with the data to &quot;archive&quot; public opinion and allow you to chat with &quot;people&quot; of the time. To demo a model, run <Code>ollama run brianmatzelle/llama3.1-8b-instruct-hasanpiker</Code> <A variant="lowkey" href="https://ollama.com/brianmatzelle/llama3.1-8b-instruct-hasanpiker-abliterated">or, check out the uncensored version.</A></p>
+            <p>Scraped 173k Reddit threads from 23 political subreddits for months leading up to the 2024 US Presidential Election, then finetuned Llama3.1 with the data to &quot;archive&quot; public opinion and allow you to chat with &quot;people&quot; of the time. To demo a model, run <Code>ollama run brianmatzelle/llama3.1-8b-instruct-hasanpiker</Code> <A variant="censored" href="https://ollama.com/brianmatzelle/llama3.1-8b-instruct-hasanpiker-abliterated">or, check out the uncensored version.</A></p>
           </Project>
 
           <Project
             title="Binghamton U. Hugging Face Group"
             href="https://huggingface.co/BinghamtonUniversity"  
-            color="text-rose-400/80"
+            color="text-na-80"
           >
             <p>Maintaining the unofficial Hugging Face group for Binghamton University (my alma mater), with the goal of making it official and teaching students about AI development + finetuning models, and cleaning unstructured data.</p>
           </Project>
@@ -37,11 +37,11 @@ export default function Home() {
           <Project
             title="Spacebots.io"
             href="https://spacebots.io"
-            src="https://whop.com/spacebots/"
-            srcName="whop"
-            color="text-[#FF6243]"
+            color="text-na-80"
           >
-            <p>A platform for botting <A variant="secondary" href="https://twitch.tv">Twitch.tv</A>. DM me on instagram <Code>@brianmatzelle</Code> for a code to enter, I limited the number of bots available so it can&apos;t be abused.</p>
+            <p>A platform for botting <A variant="secondary" href="https://twitch.tv">Twitch.tv</A>,&nbsp;
+            {/* DM me on instagram <Code>@brianmatzelle</Code> for a code to enter, I limited the number of bots available so it can&apos;t be abused. */}
+            use code <Code>portfolio</Code> to enter.&nbsp;I limited the number of bots available so it can&apos;t be abused.</p>
           </Project>
 
           <Project

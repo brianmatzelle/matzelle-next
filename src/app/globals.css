@@ -19,3 +19,12 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.text-na {
+  color: #f43f5e;
+}
+
+.text-na-80 {
+  color: #f43f5e;
+  opacity: 0.8;
+}
