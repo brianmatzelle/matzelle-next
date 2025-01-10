@@ -39,7 +39,7 @@ export default function Home() {
             href="https://spacebots.io"
             color="text-na-80"
           >
-            <p>A platform for botting <A variant="secondary" href="https://twitch.tv">Twitch.tv</A>,&nbsp;
+            <p>A platform for botting <A variant="secondary" href="https://twitch.tv">Twitch.tv</A> with AI chatbots,&nbsp;
             {/* DM me on instagram <Code>@brianmatzelle</Code> for a code to enter, I limited the number of bots available so it can&apos;t be abused. */}
             use code <Code>portfolio</Code> to enter.&nbsp;I limited the number of bots available so it can&apos;t be abused.</p>
           </Project>
