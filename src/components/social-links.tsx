@@ -18,12 +18,6 @@ const socialLinks = [
     icon: "/logos/linkedin-white.svg",
     alt: "linkedin icon",
     label: "LinkedIn"
-  },
-  {
-    href: "https://soundcloud.com/blancsavant/popular-tracks",
-    icon: "/logos/soundcloud-white.png",
-    alt: "soundcloud icon",
-    label: "Soundcloud"
   }
 ];
 
