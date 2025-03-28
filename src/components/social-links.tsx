@@ -14,6 +14,12 @@ const socialLinks = [
     label: "Hugging Face"
   },
   {
+    href: "https://ollama.com/brianmatzelle",
+    icon: "/logos/ollama-logo.svg",
+    alt: "ollama icon",
+    label: "Ollama"
+  },
+  {
     href: "https://www.linkedin.com/in/brianmatzelle/",
     icon: "/logos/linkedin-white.svg",
     alt: "linkedin icon",
