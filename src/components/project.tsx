@@ -1,7 +1,6 @@
 import { A } from "./ui/a";
 import { Card } from "./ui/card";
 import { cn } from "@/lib/utils";
-import { p } from "@/lib/styles";
 
 export default function Project({
   title,
