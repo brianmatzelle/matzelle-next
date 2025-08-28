@@ -2,7 +2,9 @@ import Project from "@/components/project";
 import { A } from "@/components/ui/a";
 import Name from "@/components/name";
 import Code from "@/components/ui/code";
-import { SocialLinks } from "@/components/social-links";
+import Footer from "@/components/footer";
+import { Bold } from "@/components/ui/bold";
+import { Highlight } from "@/components/ui/highlight";
 
 export default function Home() {
   return (
@@ -52,6 +54,14 @@ export default function Home() {
             <p>A tool for generating documentation for your GitLab merge requests, intended for local use (so the backend isn&apos;t hosted atm). See the <A variant="source" href="https://github.com/brianmatzelle/documenter/blob/main/README.md">README</A> for more information on how to set it up. Built in a day.</p>
           </Project>
 
+          <Project
+            title="LendaHand"
+            href="https://devpost.com/software/lendahand-oq1snb"
+            src="https://github.com/brianmatzelle/lendahand"
+          >
+            <p><Highlight>2x Winning</Highlight> <A variant="secondary" href="https://hackbu.org/">HackBU</A> 2023 app, <Bold>coded in React Native for iOS and Android</Bold>. Awarded Best Civic Engagement Hack Sponsored by J.P. Morgan and Best Geo Hack Sponsored by CAE.</p>
+          </Project>
+
           <Project 
             title="Battlezone Shapes" 
             href="https://www.npmjs.com/package/battlezone-shapes" 
@@ -66,14 +76,6 @@ export default function Home() {
               </A>{" "}
               theme. Over 500 downloads so far, and it&apos;s the theme of this website!
             </p>
-          </Project>
-
-          <Project
-            title="LendaHand"
-            href="https://devpost.com/software/lendahand-oq1snb"
-            src="https://github.com/brianmatzelle/lendahand"
-          >
-            <p>2x Winning <A variant="secondary" href="https://hackbu.org/">HackBU 2023</A> project, awarded Best Civic Engagement Hack Sponsored by J.P. Morgan and Best Geo Hack Sponsored by CAE. Learned iOS and Android development via React Native.</p>
           </Project>
 
           <Project
@@ -94,9 +96,7 @@ export default function Home() {
 
         </div>
       </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <SocialLinks />
-      </footer>
+      <Footer />
     </div>
   );
 }

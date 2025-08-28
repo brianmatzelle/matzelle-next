@@ -1,5 +1,6 @@
 import * as React from "react"
 import { cn } from "@/lib/utils"
+import { p } from "@/lib/styles"
 
 const Card = React.forwardRef<
   HTMLDivElement,
@@ -8,7 +9,7 @@ const Card = React.forwardRef<
   <div
     ref={ref}
     className={cn(
-      "rounded-lg backdrop-blur-sm bg-slate-800/10 w-full p-2",
+      `rounded-lg backdrop-blur-sm bg-slate-800/10 w-full ${p()}`,
       className
     )}
     {...props}

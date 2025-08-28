@@ -1,6 +1,7 @@
 import { A } from "./ui/a";
 import { Card } from "./ui/card";
 import { cn } from "@/lib/utils";
+import { p } from "@/lib/styles";
 
 export default function Project({
   title,
@@ -21,7 +22,7 @@ export default function Project({
     <>
       <div className="flex flex-col gap-1 w-full">
         <div className="flex w-full justify-between items-center">
-          <A href={href}>{title}</A>
+          <A href={href}>{title}</A> 
           <A
           variant="source"
             href={src ?? "#"}
